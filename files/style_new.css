@@ -1,0 +1,590 @@
+@font-face{
+	font-family: 'AvenirMedium';
+  src: url("fonts/Avenir-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'AvenirNextUltraLightCn';
+  src: url("fonts/AvenirNextLTPro-UltLtCn.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+	font-family: 'AvenirNextLight';
+  src: url("fonts/AvenirNext-UltraLight.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+	font-family: 'AvenirRoman';
+  src: url("fonts/Avenir-Roman.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+	font-family: 'AvenirNextBold';
+  src: url("fonts/AvenirNext-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+	font-family: 'AvenirNextCondensedBold';
+  src: url("fonts/AvenirNextCondensed-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+	font-family: 'AvenirNextCondensedMedium';
+  src: url("fonts/AvenirNextCondensed-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+	font-family: 'AvenirNextCondensedRegular';
+  src: url("fonts/AvenirNextCondensed-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+	font-family: 'AvenirNextRegular';
+  src: url("fonts/AvenirNext-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+	font-family: 'AvenirNextMedium';
+  src: url("fonts/AvenirNext-Medium.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,address,cite,code,del,dfn,em,img,ins,q,small,strong,sub,sup,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
+
+article,
+aside,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+video,
+object {
+  display: block;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  font-size: 18px;
+  color: #302625;
+  font-family: 'SourceSansProRegular', sans-serif !important;
+}
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+html {
+  font-family: "";
+  color: #484c55;
+}
+
+.container {  /*width: 400px;*/  width: 100%;  margin: 0 auto;}
+.header{	width:100%;	background-size: cover;	height:260px;}
+.header .headtop{/*width:100%;*/width:400px;}
+.header .headtop .logo{	width:40%;	display:inline-block;	position:relative;}
+.header .headtop .call{	width:calc(60% - 25px);	text-align:right;	font-size:28px;	color:#69999f;	font-family:"AvenirRoman";	display:inline-block;	position:relative;}
+.header .headtop .call a{	color:#69999f;}
+.header .headmid{width:calc(100% - 30px);padding:0px 25px 10px 25px;	background:url("topbanner.jpg") top center no-repeat;	background-size:100%;}
+.header .headmid h2{font-size:24px;	font-family:"AvenirNextRegular";	color:#ffffff;	padding:10px 0px 0px 0px;color:#ee8c38;}
+.header .headmid h1{font-size:30px;	font-family:"AvenirNextRegular";	color:#ffffff;		padding:10px 0px 10px 0px;	margin-top:-20px;	display: block;}
+/*.header .headmid .bannertext{font-size:18px;font-family:"AvenirNextUltraLightCn";color:#3c4142;	display: block;	line-height:20px;padding-bottom:15px;}*/
+.header .headmid .bannertext{font-size:18px;font-family:"AvenirNextUltraLightCn";color:#565d5f;	display: block;	line-height:20px;padding-bottom:15px;}
+
+
+
+.header .headmid .bannertext span{	text-decoration: line-through red;	-webkit-text-decoration: line-through red;}
+.evolutionbutton{
+	font-size:24px;
+	font-family:"AvenirNextRegular";
+	color:#ffffff;	
+	background-color:#fd8d29;
+	border:0;
+	margin:0 auto;
+	display:inline;
+	padding:5px 30px 5px 30px;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+/*
+.callsection{	width:calc(100% - 30px);	padding:0px 10px 0px 20px;	background-color:#dcf3f6;	height:90px;}
+.callsection .callor{width:40px;display:inline-block;	position:relative;	margin-left:10px;	top:-20px;}
+.callsection .callother{	width:calc(85% - 10px);	color:#69999f;	display:inline-block;	position:relative;}
+.callsection .callother h2{	padding:3px 0px 0px 5px;	font-size:20px;	font-family:"AvenirNextLight";	letter-spacing:-0.5px;	}
+.callsection .callother .calltext{	padding:0px 0px 0px 40px;	margin:-5px 0px 0px 0px;	background:url(../images/call.png) left 3px no-repeat;	font-size:32px;	color:#fd8d29;	letter-spacing:0.5px;	font-family:"AvenirNextMedium";}
+.callsection .callother .calltext a{	color:#fd8d29;}
+*/
+
+.phonetop {
+	float: right;
+    width: 400px;
+    /* vertical-align: text-top; */
+    margin-top: -5px;
+	}
+.callsection{	width:calc(100% - 30px);	padding:0px 10px 0px 20px;	background-color:#dcf3f6;	height:90px;}
+.callor{width:40px;display:inline-block;	position:relative;	margin-left:10px;	top:-20px;}
+.callother{	color:#69999f;	display:inline-block;	position:relative;}
+.callother h2{	padding:3px 0px 0px 5px;	font-size:20px;	font-family:"AvenirNextLight";	letter-spacing:-0.5px;	}
+.callother .calltext{	padding:0px 0px 0px 40px;	margin:-5px 0px 0px 0px;	background:url(../images/call.png) left 3px no-repeat;	font-size:32px;	color:#fd8d29;	letter-spacing:0.5px;	font-family:"AvenirNextMedium";}
+.callother .calltext a{	color:#fd8d29;}
+
+.topics{	padding:20px 30px 20px 40px;	/*width: calc(100% - 70px);*/	width:500px;	display:block;	position:relative;	text-align:left;	margin-left:80px;}
+.topics ul li{	font-family:"AvenirNextCondensedMedium";	font-size:22px;	padding:0px 0px 0px 30px;	background:url("../images/right.png") left 3px no-repeat;	list-style:none;	}
+.getstarted ul li{	font-family:"AvenirNextCondensedMedium";	font-size:22px;	padding:0px 0px 0px 30px;	background:url("../images/right.png") left 3px no-repeat;	list-style:none;	}
+
+
+.logosection{	width:100%;	display:block;	position:relative;	background:#CCCCCC;}
+.logosection img{ width:400px; margin:0 auto; display:block;}
+.getstarted{	width:calc(100% - 20px);	display:block;	position:relative;	padding:20px 10px 20px 10px;}
+.getstarted h1{	font-family:"AvenirNextCondensedMedium";	font-size:30px;	padding-bottom:10px;	text-align:center;}
+.getstarted p{	font-family:"AvenirNextCondensedRegular";	font-size:20px;	padding:5px 0px;	text-align:left;}
+.getstarted img{float:left;padding: 0 10px 0 0;	}
+.getstarted .step{width:35px;	height:32px;	border-radius:17px;	-webkit-border-radius:17px;	color:#ffffff;	padding:3px 0px 0px 0px;	font-size:24px;	text-align:center;	margin:10px auto;	display:block;	position:relative;	font-family:"AvenirNextCondensedMedium";}
+.footertext{	width:calc(100% - 50px);	display:block;	position:relative;	padding:10px 25px 10px 25px;	background-color:#69999f;	font-family:"AvenirNextCondensedRegular";	font-size:20px;	color:#ffffff;	text-align:center;margin-top:40px;}
+.footerlinks{	padding:10px 30px 10px 30px;	width: calc(100% - 60px);	display:block;	position:relative;}
+.footerlinks p{	font-family:"AvenirRoman";	font-size:12px;	padding:5px 0px;	text-align:center;	color:#69999f;}
+.footerlinks ul li{	display:inline-block;	margin:10px 30px;	font-family:"AvenirRoman";	font-size:12px;	}
+.footerlinks p a{	text-align:center;	color:#69999f;	text-decoration:underline;	padding: 0px 10px;}
+
+/*frame page*/
+.container1{	width : 100% !important; }
+.header1{	width:900px;	display:block;	margin:0 auto;}
+.header1 .headtop{width:100%;	/*width:400px;*/padding-top:10px;}
+.header1 .headtop .logo{width:73%;	display:inline-block;	position:relative;}
+
+.header1 .headtop .call{	width:calc(27% - 25px);	text-align:right;	font-size:24px;	display:inline-block;	position:relative;	padding:0px 0px 0px 2px;	background:url(../images/call.png) 6px 0px no-repeat;	color:#fd8d29;	font-family:"AvenirNextMedium";	}
+.header1 .headtop .call a{		color:#fd8d29;	}	
+.framesection{	/*width:calc(100% - 30px);*/	width:900px;	margin:0 auto;	padding:15px 0px 50px 0px;}
+.framesection .frame1{	width:100%;	background:#ffffff;	padding:0px 0px 40px 0px;	-webkit-box-shadow: 0px 2px 25px -9px rgba(0, 0, 0, 0.75);   -moz-box-shadow: 0px 2px 25px -9px rgba(0, 0, 0, 0.75);   box-shadow: 0px 2px 25px -9px rgba(0, 0, 0, 0,0.75);		text-align:center;}
+.framesection .frame1 h2{	font-family:"AvenirNextRegular";	padding:20px 20px;	font-size:24px;	color:#69999f;	text-align:center;}
+.moreheight{	height:200px;}
+.buttonarrow{	background-image:url("../images/arrowbutton.png");	background-repeat:no-repeat;	background-position:150px 10px;	text-align:left;	padding-left:40px;	width:220px;}
+.buttonarrow2{	background-image:url("../images/arrowbutton.png");	background-repeat:no-repeat;	background-position:260px 12px;	text-align:left;	padding-left:30px;	width:300px;}
+
+.buttonarrow:hover{	-webkit-box-shadow: 0px 2px 5px 0px rgba(105, 153, 159, 1);   -moz-box-shadow: 0px 2px 5px 0px rgba(105, 153, 159, 1);   box-shadow: 0px 2px 5px 0px rgba(105, 153, 159, 0,1);	}
+.slideramount{	margin:0 auto;	position:relative;	display:block;}
+#frame1{	display:block;}
+#frame2,#frame3,#frame4,#frame5,#frame6,#frame7{
+	display:none;
+}
+
+.error1{display:none;	font-size:12px;	color:#F00;	font-family:"AvenirNextRegular";	top:-10px;	text-align:center;	position:relative;}
+.framesection .frame1 label.error{	font-size:12px;	color:#F00;	font-family:"AvenirNextRegular";	top:-10px;	text-align:center;	position:relative;}
+.framesection .frame1 .selectyes_no{	margin:10px auto 0px auto;	display:block;	position:relative;	padding:0px 0 0px 0;}
+.framesection .frame1 .inputbox{	width:240px;	height:35px;	background-color:#e5f6f8;	border:1px solid #69999f;	color:#69999f;	font-family:"AvenirNextRegular";	font-size:18px;	margin:10px auto;	padding:5px 10px 5px 20px;	display:block;}
+#describe_case{display:none;}
+.framesection .frame1 .intextarea{	width:240px;	height:auto;	min-height:100px;	background-color:#e5f6f8;	border:1px solid #69999f;	color:#69999f;	font-family:"AvenirNextRegular";	font-size:18px;	margin:10px auto;	padding:5px 10px 5px 20px;	display:block;;}
+
+.inputbg{	text-align:center;	background-image:url("../images/inputarrow.png");	background-position:200px 3px;	background-repeat:no-repeat; 	cursor:pointer;	padding:5px !important;}
+.terms{	font-family:"AvenirNextCondensedRegular";	font-size:14px;	text-align:center;	margin:0 auto;	color:#69999f;	margin:15px;}
+.terms a{	color:#69999f;	text-decoration:underline;}
+/* Thank you page*/
+.thankyousection p{ 	display:block;	margin:5px auto 25px auto;	border-bottom: 1px solid #b7b7b7;	border-top: 1px solid #b7b7b7;	color:#577073;	padding:10px;	line-height:20px;	font-size:18px;	text-align:center;	font-family:"AvenirNextRegular";	background:#dcf3f6;}
+.thankyousection p a{	text-decoration:underline;	font-size:18px;	text-align:center;	font-family:"AvenirNextRegular";	}
+.adsection{	margin:0px auto 35px auto;	display:block;	/*width:251px;*/	position:relative;}
+.popup {    position: relative;    display: inline-block;    cursor: pointer;}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {    visibility: hidden;    width: 230px;    background-color: #e7e7e7;    color: #333;    text-align: left;    border-radius: 6px;    padding: 8px 8px;    position: absolute;		font-size:13px;    z-index: 1;    bottom: 125%;    left: 10%;    margin-left: -155px;}
+/* Popup arrow */
+.popup .popuptext::after {    content: "";    position: absolute;    top: 100%;    left: 50%;    margin-left: -5px;    border-width: 5px;    border-style: solid;    border-color: #555 transparent transparent transparent;}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {    visibility: visible;    -webkit-animation: fadeIn 1s;    animation: fadeIn 1s;}
+
+.backbutton{padding:10px 0px 0px 0px;}
+.backbutton a{	font-size:13px;	color:#69999f;	font-family:"AvenirNextRegular";	text-decoration:underline;}
+.margin28px{ margin-left:28px;}
+.border1px{width:100%;border-top:1px solid #93b5ba;}
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+@media (min-device-width: 400px) and (max-device-width: 767px){
+	.header .headtop img {
+    width: 100px;
+}
+.phonetop {
+    width: 220px;
+	margin-right:5px;text-align:right;
+}
+.callother h2 {
+    padding: 3px 0px 0px 0px;
+    font-size: 14px;
+    letter-spacing: -0.8px;
+
+	
+}
+	  .callother .calltext{	padding:0px 0px 0px 0px;	margin:-5px 0px 0px 0px; font-size:22px;	color:#fd8d29;	letter-spacing:0.5px;	font-family:"AvenirNextMedium";background:url("pixel.png") left 3px no-repeat;}
+	
+	
+	.header .headtop img{ /*width:200px;*/}
+	.container1{
+		background-color:#dcf3f6;
+		/*width : 400px !important; */
+	}
+	.header1{
+		width:100%;
+		background-color:#dcf3f6;
+		display:block;
+		margin:0 auto;
+	}
+	.header1 .headtop{
+		width:100%;
+		padding-top:10px;
+	}
+	.header1 .headtop .logo{
+		width:40%; margin-left:13px;
+		
+	}
+	
+	.header1 .headtop .call{
+		width:calc(58% - 25px);
+		
+	}
+	.logosection{
+		width:100%;
+		display:block;
+		position:relative;
+		background:#CCCCCC;
+		
+	}
+	.logosection img{ width:100%; margin:0 auto; display:block;}
+	.framesection{
+		width:calc(100% - 30px);
+
+		margin:0 auto;
+		padding:15px 0px 50px 0px;
+	}
+	.header .headtop{
+		width:100%;
+		margin:5px auto 5px auto;
+	}
+	.header .headtop img{ /*width:300px;*/}
+	.headtext{ 	width: 100%; margin:0 auto;	}
+	.header{height:auto;}
+	.header .headmid{background-size: 176%;}
+	.header .headmid h2{padding:5px 25px 0px 5px;	margin:0px;	font-size:30px;	line-height:35px;}
+	.header .headmid .bannertext{font-size:25px;line-height:28px;padding:10px 0px 10px 10px;width:200px;}
+	.margin28px{margin-left:0px;margin-bottom:40px;}
+
+	.getstarted{margin:0 auto;width:calc(100% - 10px);display:block;color:#ffffff; padding:0;}
+	.getstarted p{ padding:50px 20px 60px 20px;}
+	.getstarted img{ margin-top:10px;}
+
+	.how_protect_900{width:calc(100% - 10px); margin:0 auto;}
+	.how_protect{width:100%; background:url("../images/points_bg.jpg") top center no-repeat; background-size:400%;}
+	.how_protect .button_left{display:block; width:100%; top:-65px; position:relative; margin-top:10px; }
+	.how_protect .getstarted h3{font-size:25px; line-height:30px; text-align:left; padding:0px 10px 10px 20px;  position:relative; font-family:"AvenirNextRegular";}
+	.how_protect .getstarted ul li{font-size:18px; line-height:22px; text-align:left; padding:5px 10px 6px 25px; font-family:"AvenirNextCondensedRegular"; background:url("../images/right1.png") left 3px no-repeat; background-size:20px;}
+	
+	.desktop_set{ display:none; width:920px; margin:0 auto; position:relative;	padding:20px 10px 50px 10px;}
+	.mobile_set{display:block; width:calc(100% - 20px); margin:0 auto; position:relative;	padding:10px 10px 20px 10px;}
+	.mobile_set img{ display:inline-block; width:105px; vertical-align:top; margin:5px 0px;}
+	.desktop_set .set4 .imgdiv{display:block;margin:0 auto;height:150px;}
+	.mobile_set p{ display:inline-block;  font-family:"AvenirNextCondensedRegular";	font-size:18px;	padding:15px 5px;	text-align:left;color:#69999f; text-align:left; width:calc(100% - 115px);}
+	.mobile_set h1{	font-family:"AvenirNextCondensedMedium";	padding:0px 0px 20px 0px;	text-align:center; color:#69999f; font-size:28px;}
+	
+	
+}
+
+@media (min-device-width: 768px) and (max-device-width: 899px){
+	.header .headtop img{ /*width:200px;*/}
+	.container1{
+		background-color:#dcf3f6;
+		width : 400px !important; 
+	}
+	.header1{
+		width:100%;
+		background-color:#dcf3f6;
+		display:block;
+		margin:0 auto;
+	}
+	.header1 .headtop{
+		width:100%;
+		padding-top:10px;
+	}
+	.header1 .headtop .logo{
+		width:40%;
+		
+	}
+	
+	.header1 .headtop .call{
+		width:calc(58% - 25px);
+		
+	}
+	.logosection{
+		width:100%;
+		display:block;
+		position:relative;
+		background:#CCCCCC;
+		
+	}
+	.logosection img{ width:100%; margin:0 auto; display:block;}
+	.framesection{
+		width:calc(100% - 30px);
+
+		margin:0 auto;
+		padding:15px 0px 50px 0px;
+	}
+	.header .headtop{
+		width:100%;
+		margin:5px auto 5px auto;
+	}
+	.header .headtop img{ /*width:300px;*/}
+	.headtext{ 	width: 100%; margin:0 auto;	}
+	.header{height:auto;}
+	.header .headmid{background-size: 176%;}
+	.header .headmid h2{padding:15px 25px 0px 15px;	margin:0px;	font-size:45px;	line-height:50px;}
+	.header .headmid .bannertext{font-size:30px;line-height:35px;padding:10px 0px 20px 10px;	width:250px;}
+	.margin28px{margin-left:0px;margin-bottom:40px;}
+
+	.getstarted{margin:0 auto;width:calc(100% - 10px);display:block;color:#ffffff; padding:0;}
+	.getstarted p{ padding:50px 20px 60px 20px;}
+	.getstarted img{ margin-top:10px;}
+
+	.how_protect_900{width:calc(100% - 20px); margin:0 auto;}
+	.how_protect{width:100%; background:url("../images/points_bg.jpg") top center no-repeat; background-size:400%;}
+	.how_protect .button_left{display:block; width:100%; top:-65px; position:relative; margin-top:10px; }
+	.how_protect .getstarted h3{font-size:35px; line-height:40px; text-align:left; padding:0px 20px 10px 40px;  position:relative; font-family:"AvenirNextRegular";}
+	.how_protect .getstarted ul li{font-size:22px; line-height:25px; text-align:left; padding:5px 10px 6px 40px; font-family:"AvenirNextCondensedRegular"; background:url("../images/right1.png") left 3px no-repeat; background-size:25px;}
+	
+	.desktop_set{ display:none; width:920px; margin:0 auto; position:relative;	padding:20px 10px 50px 10px;}
+	.mobile_set{display:block; width:calc(100% - 20px); margin:0 auto; position:relative;	padding:10px 10px 20px 10px;}
+	.mobile_set img{ display:inline-block; width:105px; vertical-align:top; margin:5px 0px;}
+	.desktop_set .set4 .imgdiv{display:block;margin:0 auto;height:150px;}
+	.mobile_set p{ display:inline-block;  font-family:"AvenirNextCondensedRegular";	font-size:18px;	padding:45px 5px;	text-align:left;color:#69999f; text-align:left; width:calc(100% - 115px);}
+	.mobile_set h1{	font-family:"AvenirNextCondensedMedium";	padding:10px 0px 20px 0px;	text-align:center; color:#69999f; font-size:35px;}
+	
+	
+}
+@media (min-device-width: 900px) and (max-device-width: 1024px){
+.header .headmid{background-size: 130%;}
+	
+}
+@media (min-device-width: 1024px) and (max-device-width: 1150px){
+.header .headmid{background-size: 115%;}
+	
+}
+@media (min-device-width: 1150px){
+.header .headmid{background-size: 100%;}
+	
+}
+
+@media(min-device-width:900px){
+	
+	
+	
+	.header .headtop{
+		width:900px !important;
+		/*margin:20px auto 25px auto;*/
+		margin:5px auto 5px auto;
+		text-align:left;
+	}
+	.header .headtop img{ /*width:250px;*/}
+	.headtext{ 	width: 900px !important; margin:0 auto;	}
+	.header{height:auto;}
+	/*.header .headmid h2{padding:60px 25px 0px 50px;	margin:0px;	font-size:65px;	line-height:70px;}*/
+	.header .headmid h2{padding:20px 25px 0px 50px;	margin:0px;	font-size:45px;	line-height:50px;}
+	/*.header .headmid .bannertext{font-size:40px;line-height:45px;padding:5px 0px 60px 50px;	width:350px;}*/
+	.header .headmid .bannertext{font-size:30px;line-height:30px;padding:5px 0px 40px 50px; width:350px;}
+	/*.margin28px{margin-left:50px;margin-bottom:70px;}*/
+	.margin28px{margin-left:10px;margin-bottom:20px;}
+	.getstarted{margin:0 auto;width:500px;display:inline-block;color:#ffffff;}
+	
+	.getstarted p{ padding:50px 20px 60px 20px;}
+	.getstarted img{ margin-top:10px;}
+	.border1px{width:920px;border-top:1px solid #93b5ba; margin:0 auto;}
+	.how_protect_900{width:920px; margin:0 auto;}
+	.how_protect{width:100%; background:url("../images/points_bg.jpg") top center no-repeat; background-size:100%;}
+	.how_protect .button_left{display:inline-block; width:360px; top:-50px; position:relative;}
+	.how_protect .getstarted h3{font-size:40px; line-height:45px; text-align:left; padding:0px 10px 15px 50px; font-family:"AvenirNextRegular";}
+	.how_protect .getstarted ul li{font-size:30px; line-height:35px; text-align:left; padding:5px 10px 6px 50px; font-family:"AvenirNextCondensedRegular"; background:url("../images/right1.png") left 3px no-repeat; background-size:35px;}
+	.desktop_set{ display:block; width:920px; margin:0 auto; position:relative;	padding:20px 10px 50px 10px;}
+	.mobile_set{display:none;}
+	.desktop_set .set4{ width:24%; display:inline-block; vertical-align:top;}
+	.desktop_set .set4 img{ display:block; margin:0 auto; position:relative;}
+	.desktop_set .set4 .imgdiv{display:block;margin:0 auto;height:150px;}
+	.desktop_set .set4 p{ display:block; position:relative; font-family:"AvenirNextCondensedRegular";	font-size:18px;	padding:5px 5px;	text-align:left;color:#69999f; text-align:center;}
+	.desktop_set h1{	font-family:"AvenirNextCondensedMedium";	padding:30px 0px 40px 0px;	text-align:center; color:#69999f; font-size:50px;}
+	
+
+}
+@media (min-device-width: 290px) and (max-device-width: 399px){
+	.container {
+		width: 100%;
+	}
+	.header1{
+		width:100%;
+		background-color:#dcf3f6;
+		display:block;
+		margin:0 auto;
+	}
+	
+	.header{
+		height:auto;
+	}
+	.evolutionbutton{
+		font-size:20px;
+		padding:5px 20px 5px 20px;
+		cursor:pointer;
+		margin:0 auto;
+	}
+	
+	/*
+	.callsection .callor{
+		width: calc(10% - 10px);
+		margin-right: 10px;
+	}
+	.callsection .callother{
+		width: calc(88% - 10px);
+	}
+	.callsection .callother h2 {
+    padding: 3px 0px 0px 5px;
+    font-size: 17px;
+    letter-spacing: -0.8px;
+	}
+	.callsection .callother .calltext {
+    font-size: 30px;
+    letter-spacing: 0.5px;
+  }*/
+.phonetop{
+	width: 190px;
+	margin-right:5px;text-align:right;
+}
+  
+.callor{
+		width: calc(10% - 10px);
+		margin-right: 10px;
+	}
+.callother{
+		float:right;
+	}
+.callother h2 {
+    padding: 3px 0px 0px 0px;
+    font-size: 12px;
+    letter-spacing: -0.8px;
+	
+	}
+
+  
+  .callother .calltext{	padding:0px 0px 0px 0px;	margin:-5px 0px 0px 0px; font-size:22px;	color:#fd8d29;	letter-spacing:0.5px;	font-family:"AvenirNextMedium";background:url("pixel.png") left 3px no-repeat;}
+	.topics {
+    padding: 20px 20px 20px 20px;
+    width: calc(100% - 40px);
+ }
+	.topics ul li {
+    font-size: 19px;
+    padding: 0px 0px 0px 25px;
+  }
+	.footerlinks {
+    padding: 10px 15px 10px 15px;
+    width: calc(100% - 35px);
+  }
+	.header1 .headtop .logo{
+		width:40%;
+		
+	}
+	
+	.header1 .headtop .call{
+		width:calc(60% - 18px);
+		font-size:20px;
+		height:30px;
+		background: url(../images/call.png) 0px -5px no-repeat;
+	}
+	.framesection{
+		width:calc(100% - 30px);
+
+		margin:0 auto;
+		padding:15px 0px 50px 0px;
+	}
+
+	.framesection .frame1 h2{
+		font-size:20px;
+	}
+	.slider-container {
+		width: calc(100% - 30px);
+		font-family: "AvenirNextRegular";
+		display:block;
+		margin: 50px auto 55px auto;
+		
+	}
+	.buttonarrow{
+		text-align:left;
+		padding-left:40px;
+		width:220px;
+		font-size:24px;
+	}
+	.buttonarrow2{
+		text-align:left;
+		padding-left:30px;
+		width:250px;
+		background-position:220px 9px;
+	}
+	
+	.header .headtop{
+		width:100%;
+		margin:5px auto 5px auto;
+	}
+	.header .headtop img{ width:100px;}
+	.headtext{ 	width: 100%; margin:0 auto;	}
+	.header{height:auto;}
+	.header .headmid{background-size: 176%;}
+	.header .headmid h2{padding:5px 25px 0px 5px;	margin:0px;	font-size:25px;	line-height:30px;}
+	.header .headmid .bannertext{font-size:22px;line-height:25px;padding:5px 0px 20px 5px;	width:200px;}
+	.margin28px{margin-left:0px;margin-bottom:40px;}
+
+	.getstarted{margin:0 auto;width:calc(100% - 10px);display:block;color:#ffffff; padding:0;}
+	.getstarted p{ padding:50px 20px 60px 20px;}
+	.getstarted img{ margin-top:10px;}
+
+	.how_protect_900{width:calc(100% - 10px); margin:0 auto;}
+	.how_protect{width:100%; background:url("../images/points_bg.jpg") top center no-repeat; background-size:400%;}
+	.how_protect .button_left{display:block; width:100%; top:-50px; position:relative;}
+	.how_protect .getstarted h3{font-size:25px; line-height:30px; text-align:left; padding:0px 10px 10px 20px;  position:relative; font-family:"AvenirNextRegular";}
+	.how_protect .getstarted ul li{font-size:18px; line-height:22px; text-align:left; padding:5px 10px 6px 25px; font-family:"AvenirNextCondensedRegular"; background:url("../images/right1.png") left 3px no-repeat; background-size:20px;}
+	
+	.desktop_set{ display:none; width:920px; margin:0 auto; position:relative;	padding:20px 10px 50px 10px;}
+	.mobile_set{display:block; width:calc(100% - 20px); margin:0 auto; position:relative;	padding:10px 10px 20px 10px;}
+	.mobile_set img{ display:inline-block; width:105px; vertical-align:top; margin:5px 0px;}
+	.desktop_set .set4 .imgdiv{display:block;margin:0 auto;height:150px;}
+	.mobile_set p{ display:inline-block;  font-family:"AvenirNextCondensedRegular";	font-size:18px;	padding:15px 5px;	text-align:left;color:#69999f; text-align:left; width:calc(100% - 115px);}
+	.mobile_set h1{	font-family:"AvenirNextCondensedMedium";	padding:0px 0px 20px 0px;	text-align:center; color:#69999f; font-size:28px;}
+	
+}
